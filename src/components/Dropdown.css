@@ -1,0 +1,1722 @@
+.services-submenu {
+    width: 9rem;
+    color: black;
+    position: absolute;
+    top: 57px;
+    list-style: none;
+    text-align: center;
+    justify-content: center; 
+    list-style-type: none;
+  }
+  .services-submenu li {
+    background: rgb(201, 212, 212);
+    cursor: pointer;
+    color: black;
+  }
+  .services-submenu li a:hover {
+    background: rgb(0, 175, 175);
+    width: 8rem; 
+  }
+  .services-submenu.clicked {
+    display: none;
+  }  
+  .submenu-item {
+    display: block;
+    width: 100%;
+    color: white;
+    /* height: 100%; */
+    text-decoration: none;
+    /* margin-left: 50px; */
+    /* color: black; */
+    padding: 16px;
+  }
+  .services-submenus{
+    width: 9rem;
+    color:white;
+    position: absolute;
+    right: 500px;
+    top: 34px;
+    list-style-type: none;
+    text-align: center;
+    color: white;
+    background-color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    margin-right: 20px;
+
+  }
+  .services-submenus:hover{
+    /* background-color: aquamarine; */
+    color: white;
+    text-decoration: none;
+    border-radius: 10px ;
+   }
+  .services-submenus li {
+    
+    /* background: rgb(227, 141, 141); */
+    cursor: pointer;
+    list-style-type: none;
+    position: relative;
+    top: 20px;
+    width: 140px;
+    right: 60px;
+    color: bisque;
+  }
+  .services-submenus li a:hover {
+    background: black;
+    width: 7rem;
+    list-style: none;
+  }
+  .services-submenus.clicked {
+    display: none;
+  }
+  .sub-menu {
+    position: absolute;
+    top: 40;
+    left: -67%; 
+    list-style-type: none;
+ 
+  }
+  .sub-menu li {
+    background: rgb(0, 212, 212);
+    cursor: pointer;
+    color: white;
+    width: 125px;
+  }
+  .sub-menu li a:hover {
+    /* background-color: black; */
+    background: black;
+    width: 80px;
+  }
+  .subdropdown-item{
+    position: relative;
+    left: 85px;
+    bottom: 33px;
+    display: block;
+    width: 78%;
+    height: 10%;
+    text-decoration: none;
+    color: white;
+    background: rgb(0, 212, 212);
+    padding: 16px;
+  }
+  .products-item{ 
+    background-color: white;
+    height: 30px;
+    position: absolute;
+    width: 100px;
+    right:320px;
+    top: 35px;
+    list-style-type: none;
+    border-radius: 10px;
+    /* background-color: gray; */
+    text-align: center;
+    /* margin-left: 89px; */
+    color: white;
+  }
+  .products-item:hover{
+    /* background-color: aquamarine; */
+    color: white;
+    text-decoration: none;
+    border-radius: 10px ;
+   }
+
+  .products-item li {
+    width: 100px;
+    margin-left: -39px;
+    cursor: pointer;
+    position: relative;
+    list-style-type: none;
+    top: 20px;
+    color: white;
+  }
+  .products-item li a:hover {
+    background: black;
+    width: 100px;
+    list-style: none;
+    margin-right: 100px;
+    color: white;
+  }
+  .products-item.clicked {
+    display: none;
+  }
+  .products-sub-menu {
+    position: absolute;
+    top: 135px;
+    left: 230px;
+    list-style-type: none;
+  }
+  .products-sub-menu li {
+    /* background: green;; */
+    cursor: pointer;
+    /* border: 2px solid red; */
+    /* color: white; */
+    width: 125px; 
+  }
+  .products-sub-menu li a:hover{
+    width: 90px;
+    /* height: 30px; */
+    /* border: 2px solid gray; */
+    list-style: none;
+  }
+  .products-sub-menu a:hover {
+    /* background-color: black; */
+    background-color: gray;
+    width: 100px;
+  }
+  .products-dropdown{
+    background-color: red;
+  }
+  .second-dropdown{
+  
+    position: relative;
+    bottom: 33px;
+    display: block;
+    left: 72px;
+    width: 100%;
+    height: 20%;
+    text-decoration: none;
+    color: white;
+    background: #bd7272;
+    padding: 16px;
+  }
+
+  .subdropdown-cons{
+    position: relative;
+    bottom: 33px;
+    left: 85px;
+    display: block;
+    width: 78%;
+    height: 10%;
+    text-decoration: none;
+    color: white;
+    background: rgb(0, 212, 212);
+    padding: 16px;
+  }
+  .submenu-item-second{
+    display: block;
+    text-align: start;
+    justify-content: start;
+    /* margin-right: 19px; */
+    width: 50px;
+    text-decoration: none;
+    position: relative;
+    color: white;
+    padding: 16px;
+  }
+  .contect-us-first{
+    width: 100px;
+    text-decoration: none;
+    color: red;
+    border-radius: 10px ;
+    position: absolute;
+    right: 125px;
+    top: 34px;
+    text-align: center;
+    background-color: white;
+    height: 30px;
+    /* background-color: blue; */
+  }
+  .contect-us-first:hover{
+   background-color: aquamarine;
+   color: white;
+   text-decoration: none;
+   border-radius: 10px ;
+  }
+  .contect-us-first li {
+    /* background: peru; */
+    list-style-type: none;
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+    width: 130px;
+    right: 40px;
+    text-decoration: none;
+  }
+  .contect-us-first li a:hover {
+    background: black;
+    color: white;
+    text-decoration: none;
+    width: 6rem;
+    list-style: none;
+  }
+  .contect-us-first.clicked {
+    display: none;
+  }
+  
+  .contect-us-sub{
+    position: absolute;
+    top: 40;
+    left: -73%; 
+    list-style-type: none;
+   
+    /* background-color: gray; */
+ 
+  }
+  .contect-us-sub li {
+    background: rgb(0, 212, 212);
+    cursor: pointer;
+    /* border: 2px solid red; */
+    color: white;
+    width: 125px;
+  }
+  .contect-us-sub li a:hover {
+    /* background-color: black; */
+    background: black;
+    width: 93px;
+  }
+  .home-dropdown{
+    position: relative;
+    bottom: 33px;
+    display: block;
+    width: 100%;
+    height: 10%;
+    text-decoration: none;
+    color: white;
+    background: rgb(0, 212, 212);
+    padding: 16px;
+    left: 75px;
+  }
+
+  .third-dropdown{
+    position: relative;
+    bottom: 33px;
+    display: block;
+    width: 73%;
+    height: 10%;
+    text-decoration: none;
+    color: white;
+    background: rgb(0, 212, 212);
+    padding: 16px;
+    left: 268px;
+  }
+  .submenu{
+    height: 0px;
+    background-color: darkcyan;
+    position: relative;
+    right: 165px;
+    bottom: 43px;
+    list-style-type: none;
+    width: 140px;
+  }
+  .Home-item{
+    width: 12rem;
+    color: red;
+    position: absolute;
+    right: 700px;
+    top: 34px;
+    list-style-type: none;
+    background-color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    /* font-size: 10px; */
+    /* text-align: start; */
+  }
+  .Home-item:hover{
+    background-color: aquamarine;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px ;
+   }
+  .Home-item li {
+    /* background: blue; */
+    cursor: pointer;
+    list-style-type: none;
+    position: relative;
+    top: 20px;
+    right:40px ;
+  }
+
+  .Home-item li a:hover {
+    background: black;
+    width: 100px;
+    list-style: none;
+    color: white;
+  }
+  .Home-item.clicked {
+    display: none;
+  }
+  
+  .sub-home-item{
+    position: absolute;
+    top: 40;
+    left: -67%; 
+    list-style-type: none;
+    padding: 5px;
+ 
+  }
+  .sub-home-item li {
+    background: rgb(0, 212, 212);
+    cursor: pointer;
+        color: white;
+    width: 125px;
+  }
+  .sub-home-item li a:hover {
+    background: black;
+    width: 30px;
+  }
+  .third-dropdown-second{
+    position: relative;
+    bottom: 33px;
+    display: block;
+    width: 110%;
+    height: 10%;
+    text-decoration: none;
+    color: white;
+    background: rgb(0, 212, 212);
+    padding: 10px;
+    left: 65px;
+  }
+  .third-dropdown-second:hover{
+    background-color: purple;
+    color: orange;
+  }
+  .dropdown{
+    list-style-type: none;
+    color: white;
+  }
+
+/* 
+   
+     @media (min-width: 100px)  and (max-width:350px) {
+    .offcanvas-menu {
+      position: fixed;
+      top: 55px;
+      right: 655px; 
+      width: 380px;
+      height: 100%;
+      background-color: green;
+      transition: transform 0.5s;
+      z-index: -1;
+     
+    }
+    .navbar {
+      background-color: purple;
+      width: 1032px;
+      height: 100px;
+    }
+    .submenu{
+      height: 0px;
+      position: relative;
+      right: 15px;
+      bottom: 43px;
+      list-style-type: none;
+      width: 155px;
+    }
+    .dropdowns{
+      position: relative;
+      left: 240px;
+      top: -70px;
+      width:240px;
+      height: 600px;
+      background-color: palevioletred;
+    }
+
+    .navbar-logo{
+      margin-left: 55px;
+      font-size: 60px;
+      margin-top: 80px;
+      position: relative;
+      top: 1px;
+    }
+    .custom-toggler{
+      font-size: 25px;
+      margin-left: 900px;
+      margin-top: 30px;
+    }
+    .Home-item {
+      position: relative;
+      top: 120px;
+      right: 390px;
+      width: 240px;
+      height: 80px;
+      font-size: 47px;
+    }
+    .Home-item li {
+      position: relative;
+      top: -15px;
+      text-align: center;
+    }
+    .Home-item li a:hover{
+      background-color: gray;
+      width: 130px;
+    }
+     .third-dropdown-second{
+      margin-left: 205px;
+      position: relative;
+      top: 0px;
+    }
+  
+    .home-dropdown{
+      margin-left: 200px;
+      position: relative;
+      top: 0px;
+        }
+    .services-submenus{
+      position: relative;
+      top:260px;
+      right: 700px;
+      width: 240px;
+      height: 80px;
+      font-size: 47px;
+    }
+    .subdropdown-item{
+      margin-left: 220px;
+    }
+    .subdropdown-cons{
+      margin-left: 220px;
+    }
+    .btna{
+      position: relative;
+      left: 60px;
+      width: 240px;
+      height: 80px;
+      font-size: 47px;
+      top: 520px;
+      margin-top: 550px;
+      margin-left: -970px;
+    }
+    .contect-us-first{
+      position: absolute;
+      right: 720px;
+      top: 400px;
+      width: 240px;
+      height: 80px;
+      font-size: 47px;
+      
+    }
+    .products-item{
+     margin-right: 400px;
+     margin-top: 490px;
+     width: 240px;
+      height: 80px;
+      font-size: 47px;
+      border-radius: 10px;
+
+    }
+   
+    .products-item li a:hover{
+      background-color: gray;
+    }
+    .second-dropdown{
+      margin-left: 200px;
+    }
+  } 
+
+ 
+  @media (min-width: 350px)  and (max-width:600px) {
+    .offcanvas-menu {
+      position: fixed; 
+      top: 55px;
+      right: 920px; 
+      width: 590px;
+      height: 100%;
+      background-color: green;
+      transition: transform 0.5s;
+      z-index: -1;
+     
+    }
+    .navbar {
+      background-color: green;
+      width: 1500px;
+      height: 130px;
+    }
+    .submenu{
+      height: 0px;
+      background-color: darkcyan;
+      position: relative;
+      right: 30px;
+      bottom: 43px;
+      list-style-type: none;
+      width: 200px;
+    }
+    .dropdowns{
+      position: relative;
+      left: 280px;
+      top: -80px;
+      width:280px;
+     
+      height: 650px;
+      background-color: palevioletred;
+    }
+    
+
+    .navbar-logo{
+      margin-left:100px;
+      margin-top: 130px;
+      font-size: 70px;
+      position: relative;
+      top: -5px;
+    }
+    .custom-toggler{
+      font-size: 40px;
+      margin-left: 1350px;
+      margin-top: 30px;
+    }
+    .Home-item {
+      
+      position: relative;
+      top: 130px;
+      right: 270px;
+      width: 280px;
+      height: 90px;
+      font-size:55px;
+     
+    }
+    .Home-item li {
+     
+      position: relative;
+      top: -15px;
+      text-align: center;
+    
+    }
+    .Home-item li a:hover{
+      background-color: gray;
+      width: 130px;
+    }
+     .third-dropdown-second{
+      margin-left: 205px;
+      position: relative;
+      top: 0px;
+    }
+  
+    .home-dropdown{
+      margin-left: 200px;
+      position: relative;
+      top: 0px;
+        }
+    .services-submenus{
+      position: relative;
+      top:300px;
+      right: 620px;
+      width: 280px;
+      height: 90px;
+      font-size:55px;
+    }
+    .subdropdown-item{
+      margin-left: 220px;
+    }
+    .subdropdown-cons{
+      margin-left: 220px;
+    }
+    .btna{
+      position: relative;
+      left:105px;
+      width: 280px;
+      height: 90px;
+      font-size:55px;
+      top: 630px;
+      margin-top: 650px;
+      margin-left: -930px;
+    }
+    .contect-us-first{
+      position: absolute;
+      right: 640px;
+      top: 470px;
+      width: 280px;
+      height: 90px;
+      font-size:55px;
+      
+    }
+    .products-item{
+     margin-right: 320px;
+     margin-top: 580px;
+     width: 280px;
+      height: 90px;
+      font-size:55px;
+      border-radius: 10px;
+
+    }
+   
+    .products-item li a:hover{
+      background-color: gray;
+    }
+    .second-dropdown{
+      margin-left: 200px;
+    }
+  }
+  
+  @media (min-width: 600px)  and (max-width:670px) {
+
+    .offcanvas-menu {
+      position: relative;
+     margin-left: -540px;
+      top: 0;
+      left: 30px;
+       width: 340px;
+      height: 780px;
+      background-color: green;
+      transition: transform 0.5s ease-in-out;
+      z-index: -1;
+     
+    }
+ 
+
+
+    .navbar {
+      background-color: green;
+      width: 1500px;
+      height: 100px;
+    }
+    .submenu{
+      height: 0px;
+      background-color: darkcyan;
+      position: relative;
+      right: 80px;
+      bottom: 43px;
+      list-style-type: none;
+      width: 155px;
+    }
+    .dropdowns{
+      position: relative;
+      left: 160px;
+      top: -30px;
+      width:120px;
+     
+      height: 320px;
+    }
+
+    .navbar-logo{
+      position: relative;
+      top: -10px;
+      left: 80px;
+      margin-top: 80px;
+      font-size: 43px;
+    }
+    .custom-toggler{
+      font-size: 30px;
+      margin-left: 1000px;
+      margin-top: 20px;
+    }
+    .Home-item {
+      position: relative;
+      top: 90px;
+      right: 510px;
+      width: 170px;
+      height: 55px;
+      font-size: 30px;
+    }
+    .Home-item li {
+      position: relative;
+      top: -15px;
+      text-align: center;
+    }
+    .submenu-item{
+      margin-left: 35px;
+    }
+    .submenu-item-second{
+      margin-left: 15px;
+    }
+    .Home-item li a:hover{
+      background-color: gray;
+      width: 130px;
+    }
+     .third-dropdown-second{
+      margin-left: 205px;
+      position: relative;
+      top: 0px;
+    }
+    .home-dropdown{
+      margin-left: 200px;
+      position: relative;
+      top: 0px;
+        }
+    .services-submenus{
+      position: relative;
+      top:180px;
+      right: 750px;
+      width: 170px;
+      height: 55px;
+      
+      font-size: 30px;
+    }
+    .subdropdown-item{
+      margin-left: 220px;
+    }
+    .subdropdown-cons{
+      margin-left: 220px;
+    }
+    .btna{
+      position: relative;
+      left: 80px;
+    
+      top: 500px;
+      width: 170px;
+      height: 55px;
+      margin-top: 370px;
+      margin-left: -950px;
+      font-size: 30px;
+    }
+    .contect-us-first{
+      position: absolute;
+      right: 770px;
+      top: 270px;
+      width: 170px;
+      height: 55px;
+      
+      font-size: 30px;
+      
+    }
+    .products-item{
+     margin-right: 450px;
+     margin-top: 325px;
+     width: 170px;
+      height: 55px;
+      
+      font-size: 30px;
+    }
+   
+    .products-item li a:hover{
+      background-color: gray;
+    }
+    .second-dropdown{
+      margin-left: 200px;
+    }
+  }
+  
+
+
+  
+   @media (min-width: 670px)  and (max-width:765px) {
+
+    .offcanvas-menu {
+      position: relative;
+     margin-left: -500px;
+      top: 0;
+       width: 340px;
+      height: 780px;
+      background-color: green;
+      transition: transform 0.5s ease-in-out;
+      z-index: -1;
+     
+    }
+
+
+    .navbar {
+      background-color: green;
+      width: 1500px;
+      height: 100px;
+    }
+    .submenu{
+      height: 0px;
+      background-color: darkcyan;
+      position: relative;
+      right: 80px;
+      bottom: 43px;
+      list-style-type: none;
+      width: 155px;
+    }
+    .dropdowns{
+      position: relative;
+      left: 160px;
+      top: -30px;
+      width:120px;
+     
+      height: 320px;
+    }
+
+    .navbar-logo{
+      position: relative;
+      top: -10px;
+      left: 80px;
+      margin-top: 80px;
+      font-size: 43px;
+    }
+    .custom-toggler{
+      font-size: 30px;
+      margin-left: 1000px;
+      margin-top: 20px;
+    }
+    .Home-item {
+      position: relative;
+      top: 90px;
+      right: 510px;
+      width: 170px;
+      height: 55px;
+      font-size: 30px;
+    }
+    .Home-item li {
+      position: relative;
+      top: -15px;
+      text-align: center;
+    }
+    .submenu-item{
+      margin-left: 35px;
+    }
+    .submenu-item-second{
+      margin-left: 15px;
+    }
+    .Home-item li a:hover{
+      background-color: gray;
+      width: 130px;
+    }
+     .third-dropdown-second{
+      margin-left: 205px;
+      position: relative;
+      top: 0px;
+    }
+    .home-dropdown{
+      margin-left: 200px;
+      position: relative;
+      top: 0px;
+        }
+    .services-submenus{
+      position: relative;
+      top:180px;
+      right: 750px;
+      width: 170px;
+      height: 55px;
+      
+      font-size: 30px;
+    }
+    .subdropdown-item{
+      margin-left: 220px;
+    }
+    .subdropdown-cons{
+      margin-left: 220px;
+    }
+    .btna{
+      position: relative;
+      left: 80px;
+    
+      top: 500px;
+      width: 170px;
+      height: 55px;
+      margin-top: 370px;
+      margin-left: -950px;
+      font-size: 30px;
+    }
+    .contect-us-first{
+      position: absolute;
+      right: 770px;
+      top: 270px;
+      width: 170px;
+      height: 55px;
+      
+      font-size: 30px;
+      
+    }
+    .products-item{
+     margin-right: 450px;
+     margin-top: 325px;
+     width: 170px;
+      height: 55px;
+      
+      font-size: 30px;
+    }
+   
+    .products-item li a:hover{
+      background-color: gray;
+    }
+    .second-dropdown{
+      margin-left: 200px;
+    }
+  }
+   
+
+  @media (min-width: 765px)  and (max-width:800px) {
+
+    .offcanvas-menu {
+      position: relative;
+     
+      top: 0;
+      right: 410px; 
+      width: 340px;
+      height: 780px;
+      background-color: green;
+      transition: transform 0.5s ease-in-out;
+      z-index: -1;
+     
+    }
+
+    .navbar {
+      background-color: green;
+      width: 1500px;
+      height: 100px;
+    }
+    .submenu{
+      height: 0px;
+      background-color: darkcyan;
+      position: relative;
+      right: 80px;
+      bottom: 43px;
+      list-style-type: none;
+      width: 155px;
+    }
+    .dropdowns{
+      position: relative;
+      left: 160px;
+      top: -30px;
+      width:120px;
+     
+      height: 320px;
+    }
+
+    .navbar-logo{
+      position: relative;
+      top: -10px;
+      left: 80px;
+      margin-top: 80px;
+      font-size: 43px;
+    }
+    .custom-toggler{
+      font-size: 30px;
+      margin-left: 1000px;
+      margin-top: 20px;
+    }
+    .Home-item {
+      position: relative;
+      top: 90px;
+      right: 510px;
+      width: 170px;
+      height: 55px;
+      font-size: 30px;
+    }
+    .Home-item li {
+      position: relative;
+      top: -15px;
+      text-align: center;
+    }
+    .submenu-item{
+      margin-left: 35px;
+    }
+    .submenu-item-second{
+      margin-left: 15px;
+    }
+    .Home-item li a:hover{
+      background-color: gray;
+      width: 130px;
+    }
+     .third-dropdown-second{
+      margin-left: 205px;
+      position: relative;
+      top: 0px;
+    }
+    .home-dropdown{
+      margin-left: 200px;
+      position: relative;
+      top: 0px;
+        }
+    .services-submenus{
+      position: relative;
+      top:180px;
+      right: 750px;
+      width: 170px;
+      height: 55px;
+      
+      font-size: 30px;
+    }
+    .subdropdown-item{
+      margin-left: 220px;
+    }
+    .subdropdown-cons{
+      margin-left: 220px;
+    }
+    .btna{
+      position: relative;
+      left: 80px;
+    
+      top: 500px;
+      width: 170px;
+      height: 55px;
+      margin-top: 370px;
+      margin-left: -950px;
+      font-size: 30px;
+    }
+    .contect-us-first{
+      position: absolute;
+      right: 770px;
+      top: 270px;
+      width: 170px;
+      height: 55px;
+      
+      font-size: 30px;
+      
+    }
+    .products-item{
+     margin-right: 450px;
+     margin-top: 325px;
+     width: 170px;
+      height: 55px;
+      
+      font-size: 30px;
+    }
+   
+    .products-item li a:hover{
+      background-color: gray;
+    }
+    .second-dropdown{
+      margin-left: 200px;
+    }
+  }
+  
+  @media (min-width: 800px)  and (max-width:1000px) {
+
+    .offcanvas-menu {
+      position: relative;
+     
+      top: 0;
+      right: 410px; 
+      width: 400px;
+      height: 600Px;
+      background-color: green;
+      transition: transform 0.5s ease-in-out;
+      z-index: -1;
+     
+    }
+    
+    .navbar {
+      background-color: green;
+      width: 1500px;
+      height: 100px;
+    }
+    .submenu{
+      height: 0px;
+      background-color: darkcyan;
+      position: relative;
+      right: 80px;
+      bottom: 43px;
+      list-style-type: none;
+      width: 155px;
+    }
+    .dropdowns{
+      position: relative;
+      left: 160px;
+      top: -30px;
+      width:120px;
+     
+      height: 320px;
+    }
+
+    .navbar-logo{
+      position: relative;
+      top: 20px;
+      left: 80px;
+      margin-top: 10px;
+      font-size: 43px;
+    }
+    .custom-toggler{
+      font-size: 30px;
+      margin-left: 1000px;
+      margin-top: -20px;
+    }
+    .Home-item{
+      position: relative;
+      top: 130px;
+      right: 510px;
+      width: 200px;
+      height: 75px;
+      font-size: 60px;
+      left: -500px;
+      margin-top: 100px;
+     
+    }
+    .Home-item li {
+      position: relative;
+      top: -15px;
+      text-align: center;
+    }
+    .submenu-item{
+      margin-left: 35px;
+    }
+    .submenu-item-second{
+      margin-left: 15px;
+    }
+    .Home-item li a:hover{
+      background-color: gray;
+      width: 130px;
+    }
+     .third-dropdown-second{
+      margin-left: 205px;
+      position: relative;
+      top: 0px;
+    }
+    .home-dropdown{
+      margin-left: 200px;
+      position: relative;
+      top: 0px;
+        }
+    .services-submenus{
+      position: relative;
+      top:240px;
+      right: 750px;
+      width: 170px;
+      height: 55px;
+      left: -720px;
+      margin-top: 190px;
+      font-size: 30px;
+    }
+    .subdropdown-item{
+      margin-left: 220px;
+    }
+    .subdropdown-cons{
+      margin-left: 220px;
+    }
+    .btna{
+      position: relative;
+      left: 80px;
+    
+      top: 500px;
+      width: 170px;
+      height: 55px;
+      margin-top: 260px;
+      margin-left: -950px;
+      font-size: 30px;
+    }
+    .contect-us-first{
+      position: absolute;
+      top: 270px;
+      width: 170px;
+      height: 55px;
+      left: 10px;
+      margin-top: 270px;
+      font-size: 30px;
+      
+    }
+    .products-item{
+     position: relative;
+     top: 400px;
+     width: 200px;
+      height: 55px;
+      right: 960px;
+      font-size: 30px;
+    }
+   
+    .products-item li a:hover{
+      background-color: gray;
+    }
+    .second-dropdown{
+      margin-left: 200px;
+    }
+  } 
+  
+
+  
+  @media (min-width: 800px)  and (max-width:1200px) {
+    .navbar {
+      background-color: green;
+      width: 1500px;
+      height: 80px;
+    }
+    .submenu{
+      height: 0px;
+      background-color: darkcyan;
+      position: relative;
+      right: 140px;
+      bottom: 43px;
+      list-style-type: none;
+      width: 155px;
+    }
+    .dropdowns{
+      position: relative;
+      left: 150px;
+      top: -20px;
+      width:120px;
+     
+      height: 320px;
+      background-color: palevioletred;
+    }
+
+    .navbar-logo{
+      position: relative;
+      top: 55px;
+      right: 230px;
+      font-size: 45px;
+    }
+    .custom-toggler{
+      font-size: 17px;
+      margin-left: 1350px;
+      margin-top: 40px;
+    }
+    .Home-item {
+      
+      position: relative;
+      top: 70px;
+      right: 580px;
+      width: 150px;
+      height: 40px;
+      font-size: 25px;
+    }
+    .Home-item li {
+     
+      position: relative;
+      top: -15px;
+      text-align: center;
+    }
+    .Home-item li a:hover{
+      background-color: gray;
+      width: 130px;
+    }
+     .third-dropdown-second{
+      margin-left: 205px;
+      position: relative;
+      top: 0px;
+    }
+  
+    .home-dropdown{
+      margin-left: 200px;
+      position: relative;
+      top: 0px;
+        }
+    .services-submenus{
+      position: relative;
+      top:70px;
+      right: 580px;
+      font-size: 25px;
+      width: 150px;
+      height: 40px;
+    }
+    .btna{
+      position: relative;
+      left: 960px;
+      width: 150px;
+      height: 40px;
+      margin-bottom: 60px;
+      
+    }
+    .contect-us-first{
+      position: absolute;
+      right: 380px;
+      top: 70px;
+      width: 150px;
+      height: 40px;
+      font-size: 25px;
+      
+    }
+    .products-item{
+     margin-right: -170px;
+     margin-top: 35px;
+     width: 150px;
+      height: 40px;
+      font-size: 25px;
+      border-radius: 10px;
+
+    }
+   
+    .products-item li a:hover{
+      background-color: gray;
+    }
+    .second-dropdown{
+      margin-left: 200px;
+    }
+  }
+
+
+  
+ @media (min-width: 670px)  and (max-width:765px) {
+
+    .offcanvas-menu {
+      position: relative;
+     margin-left: -500px;
+      top: 0;
+       width: 340px;
+      height: 780px;
+      background-color: green;
+      transition: transform 0.5s ease-in-out;
+      z-index: -1;
+     
+    }
+
+
+    .navbar {
+      background-color: green;
+      width: 1500px;
+      height: 100px;
+    }
+    .submenu{
+      height: 0px;
+      background-color: darkcyan;
+      position: relative;
+      right: 80px;
+      bottom: 43px;
+      list-style-type: none;
+      width: 155px;
+    }
+    .dropdowns{
+      position: relative;
+      left: 160px;
+      top: -30px;
+      width:120px;
+     
+      height: 320px;
+    }
+
+    .navbar-logo{
+      position: relative;
+      top: -10px;
+      left: 80px;
+      margin-top: 80px;
+      font-size: 43px;
+    }
+    .custom-toggler{
+      font-size: 30px;
+      margin-left: 1000px;
+      margin-top: 20px;
+    }
+    .Home-item {
+      position: relative;
+      top: 90px;
+      right: 510px;
+      width: 170px;
+      height: 55px;
+      font-size: 30px;
+    }
+    .Home-item li {
+      position: relative;
+      top: -15px;
+      text-align: center;
+    }
+    .submenu-item{
+      margin-left: 35px;
+    }
+    .submenu-item-second{
+      margin-left: 15px;
+    }
+    .Home-item li a:hover{
+      background-color: gray;
+      width: 130px;
+    }
+     .third-dropdown-second{
+      margin-left: 205px;
+      position: relative;
+      top: 0px;
+    }
+    .home-dropdown{
+      margin-left: 200px;
+      position: relative;
+      top: 0px;
+        }
+    .services-submenus{
+      position: relative;
+      top:180px;
+      right: 750px;
+      width: 170px;
+      height: 55px;
+      
+      font-size: 30px;
+    }
+    .subdropdown-item{
+      margin-left: 220px;
+    }
+    .subdropdown-cons{
+      margin-left: 220px;
+    }
+    .btna{
+      position: relative;
+      left: 80px;
+    
+      top: 500px;
+      width: 170px;
+      height: 55px;
+      margin-top: 370px;
+      margin-left: -950px;
+      font-size: 30px;
+    }
+    .contect-us-first{
+      position: absolute;
+      right: 770px;
+      top: 270px;
+      width: 170px;
+      height: 55px;
+      
+      font-size: 30px;
+      
+    }
+    .products-item{
+     margin-right: 450px;
+     margin-top: 325px;
+     width: 170px;
+      height: 55px;
+      
+      font-size: 30px;
+    }
+   
+    .products-item li a:hover{
+      background-color: gray;
+    }
+    .second-dropdown{
+      margin-left: 200px;
+    }
+  }
+   */
+   @media (min-width: 100px)  and (max-width:500px) {
+    .offcanvas-menu {
+      position: fixed;
+      top: 55px;
+      right: 655px; 
+      width: 600px;
+      height: 100%;
+      background-color: green;
+      transition: transform 0.5s;
+      z-index: -1;
+     
+    }
+
+    .navbar{
+      display: inline-block;
+      flex-direction: column;
+      width: 1032px;
+      height: 80px;
+    }
+    .custom-toggler{
+      font-size: 20px;
+      margin-left: 1000px;
+      margin-top: 15px;
+    }
+    .dropdowns{
+      position: relative;
+      left: 200px;
+      top: -70px;
+      width:240px;
+      height: 600px;
+      
+    }
+    .submenu{
+      height: 0px;
+      position: relative;
+      right: 30px;
+      bottom: 43px;
+      list-style-type: none;
+ 
+    }
+    
+    .navbar-logo{
+      margin-left: 325px;
+      
+      font-size: 35px;
+      margin-top: 30px;
+      position: relative;
+      top: 1px;
+    }
+    .Home-item {
+      
+      left: 230px; 
+      margin-top: 70px;
+      width: 190px;
+      height: 70px;
+      font-size: 40px;
+    }
+    .Home-item li {
+      position: relative;
+      top: 25px;
+      text-align: center;
+    }
+    .Home-item li a:hover{
+      background-color: gray;
+      width: 150px;
+    }
+     .third-dropdown-second{
+      margin-left: 195px;
+      position: relative;
+      top: 0px;
+    }
+  
+    .home-dropdown{
+      margin-left: 180px;
+      position: relative;
+      top: 0px;
+        }
+    .services-submenus{
+      
+      top:200px;
+      left: 230px;
+      width: 190px;
+      height: 70px;
+      font-size: 40px;
+    }
+    .services-submenus li{
+      margin-left: 20px;
+    }
+    .services-submenus li a:hover{
+      background-color: rgb(133, 81, 182);
+      width: 180px;
+    }
+    .subdropdown-item{
+      margin-left: 200px;
+    }
+    .subdropdown-cons{
+      margin-left: 200px;
+    }
+    .btna{
+      left: 30px;
+      width: 190px;
+      height: 70px;
+      font-size: 40px;
+      margin-top: 460px;
+      margin-left: -700px;
+    }
+    .contect-us-first{
+      left: 230px;
+      top: 300px;
+      width: 190px;
+      height: 70px;
+      font-size: 40px;
+      
+    }
+    .contect-us-first li a:hover{
+      background-color: rgb(133, 81, 182);
+      width: 160px;
+    }
+    .products-item{
+     margin-top: 360px;
+     left: 230px;
+     width: 190px;
+      height: 70px;
+      font-size: 40px;
+      border-radius: 10px;
+
+    }
+    .products-item li a:hover{
+      background-color: rgb(133, 81, 182);
+      width: 160px;
+    }
+    .products-item li a:hover{
+      background-color: gray;
+    }
+    .second-dropdown{
+      margin-left: 195px;
+    }
+   
+  } 
+
+   @media (min-width: 500px)  and (max-width:768px) {
+    .offcanvas-menu {
+      position: fixed;
+      top: 55px;
+      right: 655px; 
+      width: 600px;
+      height: 100%;
+      background-color: green;
+      transition: transform 0.5s;
+      z-index: -1;
+     
+    }
+
+    .navbar{
+      display: inline-block;
+      flex-direction: column;
+      width: 1032px;
+      height: 80px;
+    }
+    .custom-toggler{
+      font-size: 20px;
+      margin-left: 1000px;
+      margin-top: 15px;
+    }
+    .dropdowns{
+      position: relative;
+      left: 150px;
+      top: -70px;
+      width:240px;
+      height: 600px;
+      
+    }
+    .submenu{
+      height: 0px;
+      position: relative;
+      right: 100px;
+      bottom: 43px;
+      list-style-type: none;
+ 
+    }
+    
+    .navbar-logo{
+      margin-left: 325px;
+      
+      font-size: 35px;
+      margin-top: 30px;
+      position: relative;
+      top: 1px;
+    }
+    .Home-item {
+      
+      left: 230px; 
+      margin-top: 70px;
+      width: 140px;
+      height: 50px;
+      font-size: 27px;
+    }
+    .Home-item li {
+      position: relative;
+      top: 25px;
+      text-align: center;
+    }
+    .Home-item li a:hover{
+      background-color: gray;
+      width: 150px;
+    }
+     .third-dropdown-second{
+      margin-left: 195px;
+      position: relative;
+      top: 0px;
+    }
+  
+    .home-dropdown{
+      margin-left: 180px;
+      position: relative;
+      top: 0px;
+        }
+    .services-submenus{
+      
+      top:200px;
+      left: 230px;
+      width: 140px;
+      height: 50px;
+      font-size: 27px;
+    }
+    .services-submenus li{
+      margin-left: 20px;
+    }
+    .services-submenus li a:hover{
+      background-color: rgb(133, 81, 182);
+      width: 180px;
+    }
+    .subdropdown-item{
+      margin-left: 200px;
+    }
+    .subdropdown-cons{
+      margin-left: 200px;
+    }
+    .btna{
+      left: 30px;
+      width: 140px;
+      height: 50px;
+      font-size: 27px;
+      margin-top: 460px;
+      margin-left: -700px;
+    }
+    .contect-us-first{
+      left: 230px;
+      top: 300px;
+      width: 140px;
+      height: 50px;
+      font-size: 27px;
+      
+    }
+    .contect-us-first li a:hover{
+      background-color: rgb(133, 81, 182);
+      width: 160px;
+    }
+    .products-item{
+     margin-top: 360px;
+     left: 230px;
+     width: 140px;
+     height: 50px;
+     font-size: 27px;
+      border-radius: 10px;
+
+    }
+    .products-item li a:hover{
+      background-color: rgb(133, 81, 182);
+      width: 160px;
+    }
+    .products-item li a:hover{
+      background-color: gray;
+    }
+    .second-dropdown{
+      margin-left: 195px;
+    }
+   
+  } 
